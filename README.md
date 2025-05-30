@@ -17,13 +17,13 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 
 ## Business Problems and Solutions
 ## - Count the Number of Movies vs TV Shows
-'''sql
+```sql
 SELECT 
     type,
     COUNT(*)
 FROM netflix
 GROUP BY 1;
-'''
+```
 **Objective:** Determine the distribution of content types on Netflix.
 
 ## - Find the Most Common Rating for Movies and TV Shows
